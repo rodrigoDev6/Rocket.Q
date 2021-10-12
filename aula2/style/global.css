@@ -17,6 +17,9 @@ html {
   --background: #fbfcff;
   --overlay: #040911;
 
+  /* Icons details */
+  --icon-details: #a5b0c1;
+
   /* Grey colors */
   --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
