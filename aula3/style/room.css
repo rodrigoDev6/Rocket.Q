@@ -1,0 +1,135 @@
+.content {
+  max-width: min(112rem, 90%);
+}
+
+#room header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+}
+
+/* width and height for images */
+#room header .buttons .button img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* space dentro dos buttons */
+#room header .buttons .button:nth-child(1) {
+  margin-right: 0.8rem;
+  padding: 1.3rem 1.6rem;
+}
+#room header .buttons .button:nth-child(1) img {
+  margin-left: 1rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+  padding: 1.3rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+  margin-right: 1rem;
+}
+
+/* Question form */
+
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 4.2rem;
+
+  margin-bottom: 2.4rem;
+}
+
+#question-form form {
+  border: 0.2rem solid var(--grey-blue);
+  padding: 1.6rem;
+  border-radius: 0px 8px 8px 8px;
+
+  margin-bottom: 1.6rem;
+}
+
+#question-form form textarea {
+  width: 100%;
+  resize: none;
+  background: var(--background);
+
+  outline: none;
+}
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+/* Form Footer  */
+#room form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room form footer > div {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--icon-details);
+}
+
+#room form footer > div img {
+  margin-right: 0.6rem;
+}
+
+#room form footer button {
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
+
+/* Questions style */
+
+#questions .questions {
+  width: 100%;
+  height: auto;
+  background: var(--light-blue);
+  padding: 2.4rem;
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+}
+
+#questions .questions .question-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#questions .questions .question-content {
+  display: flex;
+  align-items: center;
+}
+
+#questions .questions .question-content .question p {
+  color: var(--black);
+  margin-left: 1.6rem;
+}
+
+#questions .questions .actions {
+  display: flex;
+  align-items: flex-end;
+}
+
+#questions .questions .actions a {
+  color: var(--grey-dark);
+
+  align-items: center;
+  display: flex;
+  margin-right: 2.4rem;
+}
+
+#questions .questions .actions a img {
+  margin-right: 0.8rem;
+}
