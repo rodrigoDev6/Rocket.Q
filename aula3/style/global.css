@@ -24,6 +24,7 @@ html {
   --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
+  --grey-medium: #eaecf1;
 
   /* Dica para tamanho da font em rem */
   /* 1rem = 16px (User agent) = 100% (User Agent)  */
@@ -98,7 +99,8 @@ button:hover,
   filter: brightness(1.2);
 }
 
-button > img .button > img {
+button > img,
+.button > img {
   margin-right: 1rem;
   width: 2rem;
 }

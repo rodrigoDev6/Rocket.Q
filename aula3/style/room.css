@@ -94,42 +94,67 @@
 
 /* Questions style */
 
-#questions .questions {
-  width: 100%;
-  height: auto;
+.question-wrapper {
   background: var(--light-blue);
-  padding: 2.4rem;
+  margin-bottom: 0.8rem;
   border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
 }
 
-#questions .questions .question-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-#questions .questions .question-content {
+.question-content {
   display: flex;
   align-items: center;
 }
 
-#questions .questions .question-content .question p {
+.question-wrapper .question-content .user {
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
+.question-content .question p {
   color: var(--black);
   margin-left: 1.6rem;
-}
-
-#questions .questions .actions {
-  display: flex;
-  align-items: flex-end;
-}
-
-#questions .questions .actions a {
-  color: var(--grey-dark);
-
+  word-break: break-word;
+  
+  /* alinhando ele ao centro caso a pergunta não ultrapasse 5.5rem de height */
   align-items: center;
   display: flex;
-  margin-right: 2.4rem;
+
+  /* definindo a altura min. do texto */
+  min-height: 5.4rem;
 }
 
-#questions .questions .actions a img {
+.questions .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.questions .actions > a {
+  color: var(--grey-dark);
+  display: flex;
+  align-items: center;
+}
+
+.question-wrapper .actions > a > img {
   margin-right: 0.8rem;
+}
+
+/* 
+Novo pulo do gato na linha seguir: utilizar o ' + ' 
+para pegar somente o irmão da tag e 
+aplicar o atributo nela
+*/
+.question-wrapper .actions > a + a {
+  margin-left: 2.4rem;
+}
+
+/* question read */
+.question-wrapper.read {
+  background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey-blue);
 }
