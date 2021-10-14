@@ -9,6 +9,7 @@
     <!-- STYELS -->
     <link rel="stylesheet" href="style/global.css" />
     <link rel="stylesheet" href="style/room.css" />
+    <link rel="stylesheet" href="style/modal.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -175,5 +176,29 @@
       </main>
     </div>
     <!--/content-->
+
+    <!---------- MODAL ------------>
+    <div class="modal-wrapper">
+      <div class="modal">
+        <label class="sr-only" for-id="">Excluir pergunta</label>
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+        <form action="">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha"
+          />
+
+          <div class="buttons">
+            <button class="grey">Cancelar</button>
+            <div class="button red">Sim, Excluir</div>
+          </div>
+        </form>
+      </div>
+      <!-- /Modal -->
+    </div>
+    <!-- /Modal-wrapper -->
   </body>
 </html>

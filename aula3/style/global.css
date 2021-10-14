@@ -93,6 +93,17 @@ button,
   transition: filter 0.2s;
   cursor: pointer;
 }
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
 
 button:hover,
 .button:hover {
