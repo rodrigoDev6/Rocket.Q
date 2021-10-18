@@ -1,0 +1,78 @@
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(4, 12, 17, 0.8);
+
+  display: flex;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transform: rotateY();
+  /* justify-content: center; */
+}
+
+.modal-wrapper.active {
+  transition: 0.5s;
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-wrapper .modal {
+  width: min(59rem, 90%);
+  margin: auto;
+  background: var(--white);
+
+  padding: 6.4rem 8.6rem;
+
+  border-radius: 0.8rem;
+
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.modal-wrapper .modal > h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--black);
+
+  margin-bottom: 1.6rem;
+}
+
+.modal-wrapper .modal > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--grey-dark);
+
+  margin-bottom: 2.4rem;
+}
+
+.modal-wrapper .modal form > input {
+  width: min(70%, 30.2rem);
+
+  padding: 1.3rem 1.6rem;
+  margin-bottom: 4rem;
+
+  outline: none;
+  border: 0.2rem solid var(--blue);
+}
+
+.modal-wrapper .modal .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-wrapper .modal .buttons > button {
+  margin-left: 0.8rem;
+}
+
+.modal-wrapper .modal .buttons > button,
+.modal-wrapper .modal .buttons > .button {
+  padding: 1.3rem 3.2rem;
+}
