@@ -1,0 +1,193 @@
+.content {
+  max-width: min(112rem, 90%);
+}
+
+#room header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+}
+
+/* width and height for images */
+#room header .buttons .button img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* space dentro dos buttons */
+#room header .buttons .button:nth-child(1) {
+  margin-right: 0.8rem;
+  padding: 1.3rem 1.6rem;
+}
+#room header .buttons .button:nth-child(1) img {
+  margin-left: 1rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+  padding: 1.3rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+  margin-right: 1rem;
+}
+
+/* Question form */
+
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 4.2rem;
+
+  margin-bottom: 2.4rem;
+}
+
+#question-form form {
+  border: 0.2rem solid var(--grey-blue);
+  padding: 1.6rem;
+  border-radius: 0px 8px 8px 8px;
+
+  margin-bottom: 1.6rem;
+}
+
+#question-form form textarea {
+  width: 100%;
+  resize: none;
+  background: var(--background);
+
+  outline: none;
+}
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+/* Form Footer  */
+#room form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room form footer > div {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--icon-details);
+}
+
+#room form footer > div img {
+  margin-right: 0.6rem;
+}
+
+#room form footer button {
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
+
+/* Questions style */
+
+.question-wrapper {
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+}
+
+.question-content {
+  display: flex;
+  align-items: center;
+}
+
+.question-wrapper .question-content .user {
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
+.question-content .question p {
+  color: var(--black);
+  margin-left: 1.6rem;
+  word-break: break-word;
+  
+  /* alinhando ele ao centro caso a pergunta não ultrapasse 5.5rem de height */
+  align-items: center;
+  display: flex;
+
+  /* definindo a altura min. do texto */
+  min-height: 5.4rem;
+}
+
+.questions .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.questions .actions > a {
+  color: var(--grey-dark);
+  display: flex;
+  align-items: center;
+}
+
+.question-wrapper .actions > a > img {
+  margin-right: 0.8rem;
+}
+
+/* 
+Novo pulo do gato na linha seguir: utilizar o ' + ' 
+para pegar somente o irmão da tag e 
+aplicar o atributo nela
+*/
+.question-wrapper .actions > a + a {
+  margin-left: 2.4rem;
+}
+
+/* question read */
+.question-wrapper.read {
+  background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey-blue);
+}
+
+
+/* noQuestions */
+
+.no-questions{
+  text-align: center;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+.no-questions{
+  max-width:100% ;
+  margin-top: 5.2rem;
+}
+
+.no-questions p{
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: var(--title-font);
+  color: var(--black);
+  line-height: 1.9rem;
+
+  margin-top: 1.3rem;
+}
+
+.no-questions p + p{
+  font-size: 1.4rem;
+  font-family: var(--subtitle-font);
+  font-weight: 400;
+  color: var(--grey-dark);
+
+  margin-top: 1.3rem;
+
+}
