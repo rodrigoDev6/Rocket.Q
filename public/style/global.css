@@ -32,7 +32,7 @@ html {
 
   /* Fonts */
   --title-font: 'Poppins', sans-serif;
-  --subtitle-font: 'Open Sans', sans-serif;
+  --normal-font: 'Open Sans', sans-serif;
 }
 
 body {
@@ -49,11 +49,9 @@ body,
 button,
 input,
 textarea {
-  /* Intervalo de tamanho */
   font-size: clamp(14px, 1.6rem, 2vw);
 
   font-family: 'Open Sans', sans-serif;
-  /* font-family: 'Poppins', sans-serif; */
 }
 
 .sr-only {

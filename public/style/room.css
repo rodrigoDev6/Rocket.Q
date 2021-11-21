@@ -20,7 +20,7 @@
   height: 2rem;
 }
 
-/* space dentro dos buttons */
+/* space for buttons */
 #room header .buttons .button:nth-child(1) {
   margin-right: 0.8rem;
   padding: 1.3rem 1.6rem;
@@ -38,7 +38,6 @@
 }
 
 /* Question form */
-
 #question-form h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -66,6 +65,7 @@
 #question-form form textarea::placeholder {
   color: var(--grey-blue);
 }
+
 /* Form Footer  */
 #room form footer {
   display: flex;
@@ -93,7 +93,6 @@
 }
 
 /* Questions style */
-
 .question-wrapper {
   background: var(--light-blue);
   margin-bottom: 0.8rem;
@@ -116,12 +115,10 @@
   color: var(--black);
   margin-left: 1.6rem;
   word-break: break-word;
-  
-  /* alinhando ele ao centro caso a pergunta não ultrapasse 5.5rem de height */
+
   align-items: center;
   display: flex;
 
-  /* definindo a altura min. do texto */
   min-height: 5.4rem;
 }
 
@@ -141,11 +138,6 @@
   margin-right: 0.8rem;
 }
 
-/* 
-Novo pulo do gato na linha seguir: utilizar o ' + ' 
-para pegar somente o irmão da tag e 
-aplicar o atributo nela
-*/
 .question-wrapper .actions > a + a {
   margin-left: 2.4rem;
 }
@@ -158,7 +150,6 @@ aplicar o atributo nela
 .question-wrapper.read .question-content .user {
   background: var(--grey-blue);
 }
-
 
 /* noQuestions */
 
@@ -184,7 +175,7 @@ aplicar o atributo nela
 
 .no-questions p + p{
   font-size: 1.4rem;
-  font-family: var(--subtitle-font);
+  font-family: var(--normal-font);
   font-weight: 400;
   color: var(--grey-dark);
 
