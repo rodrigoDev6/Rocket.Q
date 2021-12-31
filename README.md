@@ -43,13 +43,13 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
   <img alt="Rocket.Q" src=".github/criando-sala.gif" width="100%">
 </p>
 
-### Editando perguntas de uma room
+### 💻 Editando perguntas de uma room
 
 <p align="center">
   <img alt="Rocket.Q" src=".github/funcoes-modal.gif" width="100%">
 </p>
 
-### Entrando em uma sala exixtente
+### 💻 Entrando em uma sala exixtente
 
 <p align="center">
   <img alt="Rocket.Q" src=".github/enter-room-exist.gif" width="100%">
