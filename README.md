@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Rocket.Q" src=".github/capa.png" width="100%">
+  <img alt="Rocket.Q" src="./assets/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -40,19 +40,19 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
 ### 💻 Criando sala
 
 <p align="center">
-  <img alt="Rocket.Q" src=".github/criando-sala.gif" width="100%">
+  <img alt="Rocket.Q" src="./assets/criando-sala.gif" width="100%">
 </p>
 
 ### 💻 Editando perguntas de uma room
 
 <p align="center">
-  <img alt="Rocket.Q" src=".github/funcoes-modal.gif" width="100%">
+  <img alt="Rocket.Q" src="./assets/funcoes-modal.gif" width="100%">
 </p>
 
 ### 💻 Entrando em uma sala exixtente
 
 <p align="center">
-  <img alt="Rocket.Q" src=".github/enter-room-exist.gif" width="100%">
+  <img alt="Rocket.Q" src="./assets/enter-room-exist.gif" width="100%">
 </p>
 
 ## Como utilizar aplicação?
